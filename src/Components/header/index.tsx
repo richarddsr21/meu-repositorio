@@ -5,13 +5,11 @@ export const Header = () => {
         <span className="text-base font-bold cursor-pointer bg-primary px-3 py-1 rounded-lg">
           Richard Reis
         </span>
-        <ul className="flex items-center">
+        <ul className="md:flex items-center">
           <li className="mr-16 cursor-pointer">Home</li>
           <li className="mr-16 cursor-pointer">Habilidades</li>
           <li className="mr-16 cursor-pointer">Projetos</li>
-          <li className="cursor-pointer font-bold bg-primary px-3 py-1 rounded-lg">
-            <button>Contato</button>
-          </li>
+          <li className="cursor-pointer font-bold bg-primary px-3 py-1 rounded-lg"></li>
         </ul>
       </div>
     </header>
