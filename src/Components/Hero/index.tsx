@@ -48,8 +48,15 @@ export const Hero = () => {
             </span>
           </div>
           <div className="mt-5 ml-7 flex text-xl">
-            <FaGithub className="mr-4" />
-            <FaLinkedin />
+            <a href="https://github.com/richarddsr21" target="_blank">
+              <FaGithub className="mr-4" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/richard-reis-b904392ab/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
           </div>
         </div>
         <img
