@@ -1,8 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-export const Hero = () => {
+export const Sobre = () => {
   return (
-    <div className="w-full h-full">
+    <section id="Home" className="w-full h-full">
       <div className="w-full flex flex-col justify-center items-center lg:hidden">
         <img
           className="mt-16 rounded-full shadow-primary shadow-md lg:"
@@ -12,8 +12,15 @@ export const Hero = () => {
           height={200}
         />
         <div className="mt-5 flex text-xl">
-          <FaGithub className="mr-4" />
-          <FaLinkedin />
+          <a href="https://github.com/richarddsr21" target="_blank">
+            <FaGithub className="mr-4" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/richard-reis-b904392ab/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
         </div>
         <div className="pt-12">
           <h1 className="text-2xl font-bold bg-primary px-3 py-1 rounded-lg">
@@ -67,6 +74,6 @@ export const Hero = () => {
           height={350}
         />
       </div>
-    </div>
+    </section>
   );
 };

@@ -10,7 +10,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="w-full h-full drop-shadow-lg">
+    <header className="w-full h-full">
       <div className="flex justify-between items-center py-4 px-4">
         <span className="text-xl font-bold cursor-pointer bg-primary px-3 py-1 rounded-lg">
           Richard Reis
